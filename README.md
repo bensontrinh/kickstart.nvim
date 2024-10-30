@@ -231,3 +231,19 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+
+### Dependency Installations
+
+> Automate later, list them out for now
+
+#### Node
+* `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
+* `nvm install 22`
+* `nvm use 22`
+* `npm install -g corepack typescript`
+* `corepack enable`
+
+#### Golang:
+https://go.dev/doc/install
+
+
