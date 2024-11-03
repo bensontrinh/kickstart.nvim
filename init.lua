@@ -657,6 +657,9 @@ require('lazy').setup({
         'typescript-language-server',
         'fixjson',
         'gomodifytags',
+        'impl',
+        'iferr',
+        'gotests',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -834,6 +837,7 @@ require('lazy').setup({
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
           { name = 'path' },
+          { name = 'codeium' },
         },
       }
     end,
